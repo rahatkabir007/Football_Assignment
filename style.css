@@ -129,7 +129,7 @@ main {
     margin-bottom: 240px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
 }
