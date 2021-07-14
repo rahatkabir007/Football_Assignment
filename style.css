@@ -335,6 +335,10 @@ footer {
         grid-template-columns: repeat(1, 1fr);
         margin-left: -18px;
     }
+    .player:hover {
+        transform: none;
+        transition: none;
+    }
 
     .second-section {
         display: flex;
@@ -418,6 +422,11 @@ footer {
         height: 100px;
     }
 
+    .fourth-section-img img:hover {
+        transform: none;
+        transition: none;
+    }
+
     .footer-imgtext img {
         width: 300px;
         height: 100px;
@@ -459,6 +468,11 @@ footer {
         margin-left: 18px;
     }
 
+    .player:hover {
+        transform: none;
+        transition: none;
+    }
+
     .second-section {
         display: flex;
         flex-direction: column;
@@ -493,5 +507,10 @@ footer {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+
+    .fourth-section-img img:hover {
+        transform: none;
+        transition: none;
     }
 }
