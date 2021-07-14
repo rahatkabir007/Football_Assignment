@@ -35,7 +35,7 @@ body {
     color: #FFFFFF;
     text-decoration: none;
     background-color: #E02C6D;
-   
+
 
 }
 
@@ -46,9 +46,50 @@ body {
 
 /* Main part */
 
+.container {
+    margin: 0 180px 0 210px;
+}
+
 /* Player Section */
 
+.players {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr);
+    justify-content: space-evenly;
+    margin: 70px 0 45px 0;
+    grid-row-gap: 50px;
 
+}
+
+.player {
+
+    width: 300px;
+    height: 456px;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+
+
+
+}
+
+.player-img img {
+    width: 300px;
+    height: 256px;
+}
+
+.player-info {
+    width: 300px;
+    height: 154px;
+    overflow: hidden;
+
+}
+
+.player-info p {
+    font-size: 12px;
+}
 
 
 
