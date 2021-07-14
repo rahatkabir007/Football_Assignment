@@ -426,4 +426,72 @@ footer {
 
 /* Tablet Device */
 
-@media only screen and (min-width: 688px) and (max-width: 992px) {}
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+
+    .heading {
+        display: flex;
+        flex-direction: column;
+        transition: none;
+        transform: none;
+        width: 1000px;
+        height: 900px;
+
+    }
+
+    .heading-text {
+        width: 200px;
+        margin-right: 600px;
+
+    }
+
+    .heading-text h1 {
+        margin-top: 20px;
+        font-size: 40px;
+    }
+
+    .heading-img {
+        margin-right: 100px;
+    }
+
+    .players {
+        display: grid;
+        grid-template-columns: repeat(2, 0.25fr);
+        margin-left: 18px;
+    }
+
+    .second-section {
+        display: flex;
+        flex-direction: column;
+        width: 1500px;
+        height: 500px;
+    }
+
+    .left-area {
+        width: 600px;
+    }
+
+    .right-area img {
+        margin-top: 150px;
+    }
+
+    .third-section {
+        display: flex;
+        flex-direction: column;
+        width: 1500px;
+        height: 800px;
+    }
+
+    .right-area2 {
+        width: 600px;
+    }
+
+    .left-area2 img {
+        margin-top: 150px;
+    }
+
+    .fourth-section-img-highlights {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
