@@ -47,6 +47,7 @@ body {
 /* Main part */
 
 .container {
+
     margin: 0 180px 0 210px;
 }
 
@@ -56,8 +57,10 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 0.5fr);
-    justify-content: space-evenly;
+    justify-content: center;
+    justify-items: center;
     margin: 70px 0 45px 0;
+
     grid-row-gap: 50px;
 
 }
@@ -66,6 +69,7 @@ body {
 
     width: 300px;
     height: 456px;
+    margin: 0;
     padding: 15px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -91,6 +95,88 @@ body {
     font-size: 12px;
 }
 
+/* Player Section CSS END */
+
+/* Second Section */
+.second-section {
+    margin-top: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.left-area {
+    width: 470px;
+    height: 309px;
+    margin-right: 65px;
+}
+
+.left-area h1 {
+    color: #0A0826;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+
+}
+
+.left-area p {
+    width: 404px;
+    height: 113px;
+    color: #6C6C6C;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.left-area a {
+    width: 168px;
+    height: 44px;
+    margin-top: 27px;
+    padding: 10px 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #E02C6D;
+}
+
+.right-area img {
+    width: 567px;
+    height: 427px;
+}
+
+/* Second Section CSS END */
+
+
+/* Third Section CSS Start */
+
+
+
+/* Third Section CSS END */
+
+
+/* Fourth Section CSS Start */
+
+
+
+/* Fourth Section CSS END */
+
+
+/* Footer Section CSS Start */
+footer {
+    margin-top: 158px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+/* Footer Section CSS END */
 
 
 
