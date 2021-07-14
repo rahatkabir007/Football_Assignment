@@ -46,6 +46,15 @@ body {
 
 /* Main part */
 
+/* this piece of code below will help all the contents in main body remained in center */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* this piece of code above will help all the contents in main body remained in center */
+
 .container {
 
     margin: 0 180px 0 210px;
@@ -151,6 +160,8 @@ body {
 /* Second Section CSS END */
 
 
+
+
 /* Third Section CSS Start */
 
 
@@ -172,7 +183,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+
 }
 
 
